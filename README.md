@@ -19,6 +19,12 @@ dirbuster
 wordlist: /usr/share/dirbuster/wordlists
 ```
 
+### Scan website with nikto
+
+```bash
+nikto -h host
+```
+
 
 ## Files in images [here](http://ctfs.github.io/resources/topics/steganography/file-in-image/README.html):
 
