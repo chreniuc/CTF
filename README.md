@@ -28,3 +28,13 @@ The terminating byte for a JPEG is FF D9 in hex
 PK are the initials of Phil Katz, the inventor of the zip file
 ```
 
+### Image on image [here](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
+
+```bash
+#!/bin/bash -ex
+
+wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+chmod +x stegsolve.jar
+mkdir bin
+mv stegsolve.jar bin/
+```
