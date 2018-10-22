@@ -8,7 +8,24 @@ Steps to follow when participating to CTF
 nmap -p- 192.168.1.1
 # This may detect more things, takes longer: Detects if ftp is vulnerable
 nmap -A 192.168.1.1
+
+nmap -sV -A 192.168.1.1
  
+```
+
+### Connect to a specific port
+```bash
+nc -n 192.168.0.157 13337
+
+```
+
+## More info about the website:
+```bash
+whatweb http://192.168.0.157:80
+
+Output:
+http://192.168.0.157:80 [200 OK] Apache[2.4.27], Country[RESERVED][ZZ], HTML5, HTTPServer[Fedora Linux][Apache/2.4.27 (Fedora)], IP[192.168.0.157], Title[Morty's Website]
+
 ```
 
 ## Dirbuster
@@ -79,3 +96,10 @@ roughly parses to,
 ```bash
 wpscan -u 10.0.2.4 --wordlist ~/fsocity.dic --username elliot
 ```
+
+
+## WalkThroughs
+
+ - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
+ - [Seatle Ctf](https://medium.com/@DRX_Sicher/seattle-ctf-walkthrough-a2fb2bf9367c)
+ - []()
