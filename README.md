@@ -70,6 +70,11 @@ mkdir bin
 mv stegsolve.jar bin/
 ```
 
+### Find strings in image:
+```bash
+strings image.jpg
+```
+
 ## Brute force passwords with HYDRA or wpscan
 
 ```bash
