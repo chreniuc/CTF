@@ -1,4 +1,4 @@
-# CTF
+# CTF  -- [CTF AWESOME](https://github.com/apsdehal/awesome-ctf)
 Steps to follow when participating to CTF
 
 ## See all opened ports, [here](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
@@ -38,3 +38,4 @@ chmod +x stegsolve.jar
 mkdir bin
 mv stegsolve.jar bin/
 ```
+
