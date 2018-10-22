@@ -114,4 +114,4 @@ sudo -i
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
  - [Seatle Ctf](https://medium.com/@DRX_Sicher/seattle-ctf-walkthrough-a2fb2bf9367c)
- - []()
+ - [Rickdiculouslyeasy](https://portunreachable.com/ctf-walkthrough-vulnhub-rickdiculouslyeasy-26da0981413a)
