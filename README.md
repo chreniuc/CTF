@@ -18,3 +18,11 @@ dirbuster
 
 wordlist: /usr/share/dirbuster/wordlists
 ```
+
+
+## Files in images [here](http://ctfs.github.io/resources/topics/steganography/file-in-image/README.html):
+
+```bash
+The terminating byte for a JPEG is FF D9 in hex,
+```
+
