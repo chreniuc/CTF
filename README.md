@@ -5,9 +5,9 @@ Steps to follow when participating to CTF
 
 ```bash
 # All ports
- 	nmap -p- 192.168.1.1
+nmap -p- 192.168.1.1
 # This may detect more things, takes longer: Detects if ftp is vulnerable
-  nmap -A 192.168.1.1
+nmap -A 192.168.1.1
  
 ```
 
