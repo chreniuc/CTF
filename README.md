@@ -22,7 +22,7 @@ wordlist: /usr/share/dirbuster/wordlists
 ### Scan website with nikto
 
 ```bash
-nikto -h host
+nikto -h host [-port p]
 ```
 
 ### Scan wordpress site:
