@@ -103,6 +103,13 @@ wpscan -u 10.0.2.4 --wordlist ~/fsocity.dic --username elliot
 ```
 
 
+## Root escalation
+```bash
+sudo -
+
+sudo -i
+```
+
 ## WalkThroughs
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
