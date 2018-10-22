@@ -25,6 +25,14 @@ wordlist: /usr/share/dirbuster/wordlists
 nikto -h host
 ```
 
+### Scan wordpress site:
+
+```bash
+wpscan --url host --enumerate vp
+
+# --enumerate vp: vulnerable plugins
+```
+
 
 ## Files in images [here](http://ctfs.github.io/resources/topics/steganography/file-in-image/README.html):
 
