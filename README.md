@@ -48,6 +48,11 @@ nikto -h host [-port p]
 wpscan --url host --enumerate vp
 
 # --enumerate vp: vulnerable plugins
+
+wpscan --url 192.168.56.223/bull/ -r --enumerate u --enumerate vp --enumerate t --enumerate tt
+
+# --enumerate u e= enumerate users
+
 ```
 
 
