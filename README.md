@@ -110,6 +110,12 @@ sudo -
 sudo -i
 ```
 
+## PHP
+
+#### Shell one-line
+
+https://gist.github.com/sente/4dbb2b7bdda2647ba80b
+
 ## WalkThroughs
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
