@@ -204,6 +204,27 @@ Get information from a pcap
 ngrep -I capture.pcap
 ```
 
+### Substitution solver: https://www.guballa.de/substitution-solver
+
+Just in case ROT doesn't work.
+
+This 
+```
+Sr Wrnrgir
+Ru blf ziv ivzwrmt gsrh R nrtsg yv mlg zorev. R szev kozxv z yzxpwlli rm Yozxpnzipvg
+dliphslk fmwvi /ptyyzxpwlli ulowvi blf nfhg szev gl fhv
+KzhhKzhh.qkt rm liwvi gl tvg zxxvhh.
+
+```
+
+Decodes to this:
+```
+Hi Dimitri
+If you are reading this I might be not alive. I have place a backdoor in Blackmarket
+workshop under /kgbbackdoor folder you must have to use
+PassPass.jpg in order to get access.
+```
+
 ## WalkThroughs
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
