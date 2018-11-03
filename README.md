@@ -110,7 +110,12 @@ wpscan -u 10.0.2.4 --wordlist ~/fsocity.dic --username elliot
 ### Generate wordlist based on the content from a website
 
 ```bash
- cewl -w passwords.txt http://derpnstink.local/weblog/
+ cewl [ -m 6 ]-w passwords.txt http://derpnstink.local/weblog/
+ 
+ # [ -m 6 ] Minimum size 6
+ 
+ # You can pass the through john's rules, here's a tutorial: http://netsec.ws/?p=457
+ john --wordlist=passwords.txt --rules --stdout > words-john.txt
 ```
 
 
