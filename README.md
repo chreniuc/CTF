@@ -107,6 +107,12 @@ roughly parses to,
 wpscan -u 10.0.2.4 --wordlist ~/fsocity.dic --username elliot
 ```
 
+### Generate wordlist based on the content from a website
+
+```bash
+ cewl -w passwords.txt http://derpnstink.local/weblog/
+```
+
 
 ## Root escalation
 ```bash
