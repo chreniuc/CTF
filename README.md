@@ -190,6 +190,13 @@ run
 shell
 ```
 
+### PCAP
+
+Get information from a pcap
+
+```bash
+ngrep -I capture.pcap
+```
 
 ## WalkThroughs
 
