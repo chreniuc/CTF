@@ -1,6 +1,8 @@
 # CTF  -- [CTF AWESOME](https://github.com/apsdehal/awesome-ctf)
 Steps to follow when participating to CTF
 
+#### [Collaborative markdown notes](https://hackmd.io)
+
 ## See all opened ports, [here](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
 
 ```bash
