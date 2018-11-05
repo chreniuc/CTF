@@ -259,4 +259,13 @@ curl -d "@req.xml" -X POST -k https://172.25.1.130:15988/pool/process.php
  - [HackTheBox](https://www.hackthebox.eu/)
  - [VulnHub](https://www.vulnhub.com/)
  - [SquareCTF](https://2018.squarectf.com/)
+ - [Enigma](https://www.enigmagroup.org)
+ - [Backdoor SDSLabs](https://backdoor.sdslabs.co/)
+ - [Ringzer0CTF](https://ringzer0ctf.com)
 
+## Helpful links
+
+- [CTFTime](https://ctftime.org/)
+- [captf.com/practice-ctf](http://captf.com/practice-ctf/)
+- [wechall](https://www.wechall.net/)
+- [Reddit post](https://www.reddit.com/r/netsecstudents/comments/31uql2/any_hackthissiteorg_alternatives/)
