@@ -38,6 +38,14 @@ dirbuster
 wordlist: /usr/share/dirbuster/wordlists
 ```
 
+## dirsearch
+https://github.com/maurosoria/dirsearch
+
+```bash
+./dirsearch -u host -e html,php,txt,cfg
+```
+
+
 ### Scan website with nikto
 
 ```bash
