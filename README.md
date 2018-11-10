@@ -313,6 +313,19 @@ dig @192.168.1.191  -t TXT timef0rconqu3rs.7kingdoms.ctf
 dig @dns_server [query type] query
 ```
 
+## PosgreeSQL
+
+```bash
+psql -h 192.168.1.191 -U robinarryn -d mountainandthevale
+
+## Show tables
+> \d
+
+# Show definition of view flag
+> \d+ flag
+
+```
+
 ## Cryptography
 
 ### Common Modulus attack with extended Euclidean algorithm: [here](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/)
