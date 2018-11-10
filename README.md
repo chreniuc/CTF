@@ -331,6 +331,14 @@ psql -h 192.168.1.191 -U robinarryn -d mountainandthevale
 
 ```
 
+## Exploit Research
+
+```bash
+searchsploit [app]
+searchsploit postgreesql
+```
+
+
 ## Cryptography
 
 ### Common Modulus attack with extended Euclidean algorithm: [here](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/)
@@ -351,6 +359,7 @@ psql -h 192.168.1.191 -U robinarryn -d mountainandthevale
  - [Enigma](https://www.enigmagroup.org)
  - [Backdoor SDSLabs](https://backdoor.sdslabs.co/)
  - [Ringzer0CTF](https://ringzer0ctf.com)
+ - [Metsploitable](https://0x00sec.org/t/metasploitable-1-walkthrough/3964)
 
 ## Helpful links
 
