@@ -131,6 +131,8 @@ roughly parses to,
 
 ### Bruteforce [8 Point](https://0x00sec.org/t/metasploitable-1-walkthrough/3964)
 
+ - Brute force ftp, ssh, mysql, postgreesql, etc....
+
 
 ### WPscan
 ```bash
