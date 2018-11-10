@@ -264,6 +264,16 @@ curl -d "@req.xml" -X POST -k https://172.25.1.130:15988/pool/process.php
 </root>
 ```
 
+### Curl
+
+#### Make a request with a different user agent
+
+```bash
+curl -A "Three-eyed-raven" -X GET http://192.168.1.191/raven.php
+
+# -A user-agent
+```
+
 ## Cryptography
 
 ### Common Modulus attack with extended Euclidean algorithm: [here](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/)
