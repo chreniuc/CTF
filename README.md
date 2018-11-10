@@ -296,6 +296,12 @@ curl -A "Three-eyed-raven" -X GET http://192.168.1.191/raven.php
 # -A user-agent
 ```
 
+#### Run imap request: [Documentation](https://debian-administration.org/article/726/Performing_IMAP_queries_via_curl), [link2](https://gist.github.com/akpoff/53ac391037ae2f2d376214eac4a23634)
+
+```bash
+curl "imap://mail.7kingdoms.ctf/INBOX;UID=1" -v -k --user "olennatyrell@7kingdoms.ctf:H1gh.Gard3n.powah"
+```
+
 ## DNS server
 
 ```bash
