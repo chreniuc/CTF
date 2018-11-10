@@ -234,6 +234,12 @@ Get information from a pcap
 ngrep -I capture.pcap
 ```
 
+### NC files
+
+```bash
+mcrypt -d the_wall.txt.nc
+```
+
 ### Substitution solver: https://www.guballa.de/substitution-solver
 
 Just in case ROT doesn't work.
