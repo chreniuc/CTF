@@ -83,6 +83,9 @@ wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
 chmod +x stegsolve.jar
 mkdir bin
 mv stegsolve.jar bin/
+
+# or to start it
+java -jar Stegsolve.jar
 ```
 
 ### Find strings in image:
