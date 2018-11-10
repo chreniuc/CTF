@@ -291,6 +291,28 @@ curl -A "Three-eyed-raven" -X GET http://192.168.1.191/raven.php
 # -A user-agent
 ```
 
+## DNS server
+
+```bash
+nslookup
+> server 192.168.1.191
+Default server: 192.168.1.191
+Address: 192.168.1.191#53
+# Query type
+> set type=TXT
+## Query
+> winterfell.7kingdoms.ctf
+Server:         192.168.1.191
+Address:        192.168.1.191#53
+## Query
+> timef0rconqu3rs.7kingdoms.ctf
+
+# Or you can use dig
+
+dig @192.168.1.191  -t TXT timef0rconqu3rs.7kingdoms.ctf
+dig @dns_server [query type] query
+```
+
 ## Cryptography
 
 ### Common Modulus attack with extended Euclidean algorithm: [here](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/)
