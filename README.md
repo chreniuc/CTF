@@ -129,6 +129,9 @@ roughly parses to,
     ERROR tells it what to look for if it fails
 ```
 
+### Bruteforce [8 Point](https://0x00sec.org/t/metasploitable-1-walkthrough/3964)
+
+
 ### WPscan
 ```bash
 wpscan -u 10.0.2.4 --wordlist ~/fsocity.dic --username elliot
