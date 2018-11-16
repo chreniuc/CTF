@@ -169,6 +169,13 @@ wget https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linu
 #    [+] [CVE-2016-5195] dirtycow 2
 ```
 
+## Check the services that are run by root
+
+```bash
+ps-aux | grep root
+```
+
+
 ## PHP
 
 #### Shell one-line
