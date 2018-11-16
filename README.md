@@ -12,6 +12,8 @@ nmap -p- 192.168.1.1
 nmap -A 192.168.1.1
 
 nmap -sV -A 192.168.1.1
+
+nmap -A -O -T4 --script=vuln 192.168.1.66
  
 ```
 
