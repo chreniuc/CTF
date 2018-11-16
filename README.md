@@ -138,7 +138,7 @@ roughly parses to,
 
 ### WPscan
 ```bash
-wpscan -u 10.0.2.4 --wordlist ~/fsocity.dic --username elliot
+wpscan -u 10.0.2.4 --wordlist ~/fsocity.dic --username elliot --threads 50
 ```
 
 ### Generate wordlist based on the content from a website
