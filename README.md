@@ -342,6 +342,9 @@ Address:        192.168.1.191#53
 
 dig @192.168.1.191  -t TXT timef0rconqu3rs.7kingdoms.ctf
 dig @dns_server [query type] query
+
+# Get DNS of Ip
+dig @192.168.200.1 -x 192.168.220.17
 ```
 
 ## PosgreeSQL
